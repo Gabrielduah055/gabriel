@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <>
+    <div className="site-wrap">
       <Cursor />
       <Nav />
       <Hero />
@@ -16,6 +16,6 @@ export default function App() {
       <About />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }

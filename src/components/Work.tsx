@@ -16,7 +16,7 @@ function ProjectRow({ num, title, desc, tags, href }: Project) {
             ))}
           </div>
         </div>
-        <a href={href} className="proj-arrow" aria-label={`View ${title}`}>
+        <a href={href} className="proj-arrow" aria-label={`View ${title}`} target="_blank" rel="noopener noreferrer">
           ↗
         </a>
       </div>
